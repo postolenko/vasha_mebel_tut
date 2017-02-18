@@ -992,6 +992,9 @@ a:active {
    display: block;
    width: 68%;
    float: right;
+  background-image: url(img/shape_2.png);
+  background-repeat: no-repeat;
+  background-position: 555px 368px;
    /*outline: 1px solid red;*/
 }
 
@@ -1106,14 +1109,18 @@ a:active {
 /*-- Section 1 - Main Content - Main Page --*/
 
 .hits-sect {
-   background-image: url(img/shape_2.png);
+/*   background-image: url(img/shape_2.png);
    background-repeat: no-repeat;
-   background-position: 555px 444px;
+   background-position: 555px 444px;*/
    padding: 30px 0 60px 0;
 }
 
 .hits-sect .big-h1 {
    padding: 0 0 0 2%;
+}
+
+.hits-sect .inner-row {
+  margin: 0;
 }
 
 .goods-thumbnails {
