@@ -167,7 +167,7 @@ textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .3s e
 
 section {
   position: relative;
-  padding: 70px 0;
+  padding: 60px 0;
 }
 
 section.sect-shape:before {
@@ -219,7 +219,7 @@ h2 {
    font-weight: normal;
    color: #333333;
    /*text-align: center;*/
-   padding: 10px 0 20px 0;
+   padding: 20px 0;
 }
 
 h3 {
@@ -1695,7 +1695,8 @@ section.article-sect2 {
 }
 
 section.article-sect2 .inner-row {
-  padding: 0 4%;
+  /*padding: 0 4%;*/
+  padding: 0 58px;
 }
 
 .article-sect2 h2 {
@@ -1879,7 +1880,7 @@ section.article-sect2 .inner-row {
   font-weight: bold;
   color: #bea9f7;
   text-align: left;
-  padding: 0 0 10px 0;
+  padding: 0 0 5px 0;
 }
 
 .contacts-thumbnails .thumbnail p {
@@ -1969,7 +1970,7 @@ section.catalog-sect {
 }
 
 .pagination {
-  padding: 32px 0 0 0;
+  padding: 32px 0 20px 0;
   text-align: center;
 }
 
