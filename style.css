@@ -167,7 +167,7 @@ textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .3s e
 
 section {
   position: relative;
-  padding: 60px 0;
+  padding: 60px 0 70px 0;
 }
 
 section.sect-shape:before {
