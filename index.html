@@ -56,7 +56,7 @@
 									
 						<div class="logo-box">
 							
-								<a href="#" class="logo"><img class="logo-img" src="img/logo.png" alt=""></a>							
+							<a href="#" class="logo"><img class="logo-img" src="img/logo.png" alt=""></a>				
 
 						</div>
 
@@ -822,18 +822,28 @@
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoGWEyUlxHOSfMgm2TliQLggP3mej7d_I&callback=initMap"></script>
 
 		<script type="text/javascript">
-			
-		$(".main-slider").slick({
-			fade: true,
-			dots: true,
-			arrows: true,
-			slidesToShow: 1,
-			autoplay: true,
-			autoplaySpeed: 7000,
-			speed: 900,
-			appendDots: $(".main-slider-dots"),
-			appendArrows: $(".main-slider-arrows")
-		});
+
+			(function($){
+
+				$(window).on("load",function(){
+
+					$(".scroll").mCustomScrollbar();
+
+				});
+
+			})(jQuery);
+				
+			$(".main-slider").slick({
+				fade: true,
+				dots: true,
+				arrows: true,
+				slidesToShow: 1,
+				autoplay: true,
+				autoplaySpeed: 7000,
+				speed: 900,
+				appendDots: $(".main-slider-dots"),
+				appendArrows: $(".main-slider-arrows")
+			});
 
 		</script>
 	

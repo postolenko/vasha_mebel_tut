@@ -20,6 +20,12 @@ $(document).ready(function() {
 
         $(".wrapper").css({"padding-bottom" :  $(".footer").outerHeight(true) + "px"});
 
+        // ---------------------------------------------------------------------------------
+
+        $(".gallery-box").css({"top" : ( $(window).height() - $(".gallery-box").outerHeight(true) ) / 2 + "px" });
+
+        // ---------------------------------------------------------------------------------
+
     });
 
 
@@ -28,6 +34,22 @@ $(document).ready(function() {
         $(".wrapper").css({"min-height" : $(window).height() + "px"});
 
         $(".wrapper").css({"padding-bottom" :  $(".footer").outerHeight(true) + "px"});
+
+    });
+
+    // --------------------------------------------------------------------------------------
+
+    $(".gallery-box").css({"top" : ( $(window).height() - $(".gallery-box").outerHeight(true) ) / 2 + "px" });
+
+    // --------------------------------------------------------------------------------------
+
+    $(function() {
+
+        $(".gallery-bg, .close-gallery").click(function() {
+
+            $(".gallery-sect").fadeOut(300);
+
+        });
 
     });
 
