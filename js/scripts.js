@@ -137,6 +137,42 @@ $(document).ready(function() {
 
     // --------------------------------------------------------------------------------------
 
+    $(function() {
+
+        $(".count-goods").each(function() {
+
+            if( $(this).val() == "" ) {
+
+                $(this).val(0);
+
+            }
+
+        });
+
+        $(".count-goods-box button").click(function() {
+
+            countElementsInputIndex = $(this).parent(".count-goods-box").index(".count-goods-box");
+
+            countElementsVal = $(".count-goods-box:eq("+ countElementsInputIndex +") .count-goods").val();
+
+            if( $(this).hasClass("minus-btn") && countElementsVal > 0 ) {
+
+                countElementsVal--;
+
+            } else if( $(this).hasClass("plus-btn") ) {
+
+                countElementsVal++;
+
+            }
+
+            $(".count-goods-box:eq("+ countElementsInputIndex +") .count-goods").val(countElementsVal);
+
+        });
+
+    });
+
+    // --------------------------------------------------------------------------------------
+
     function getSlideImgSize() {
 
         if( $(".popup-img").is(":visible") ) {
