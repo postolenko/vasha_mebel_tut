@@ -22,11 +22,14 @@
 
 	<link rel="stylesheet" type="text/css" href="slick/slick.css">
 
+	<link rel="stylesheet" href="vendors/css/jquery.mCustomScrollbar.css">
+
 
 	<script type="text/javascript" src="vendors/js/jquery.js"></script>
 
 	<script type="text/javascript" src="slick/slick.js"></script>
 
+	<script src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 
 	<script type="text/javascript" src="vendors/js/wow.min.js"></script>
 	<script>new WOW().init();</script>
@@ -51,6 +54,26 @@
 			<div class="header">
 
 				<div class="row clearfix">
+
+					<div class="respmenubtn-col">
+
+						<div class="respmenubtn-box">
+									
+							<button class="respmenubtn">
+								
+								<span></span>
+								<span></span>
+								<span></span>
+
+							</button>
+
+							<p>Каталог</p>
+
+							<p class="show-p">Закрыть</p>
+
+						</div>
+
+					</div>
 					
 					<div class="col col-1">
 									
@@ -121,18 +144,133 @@
 
 					</div>
 
+				</div>				
+
+			</div>
+
+		</header>
+
+		<!-- Responsive Menu -->
+
+			<div class="resp-menu-sect">
+				
+				<div class="resp-menu-top-row">
+
+					<div class="search">
+								
+						<input type="text" class="search-inpt" placeholder="Что вы ищете?">
+
+						<button type="button" class="search-btn"></button>
+
+					</div>
+
+				</div>
+
+				<div class="resp-menu-box scroll">
+
+					<div class="resp-menu-wrapp align-left">
+						
+						<ul class="sidebar-nav">
+
+							<li><a href="#">Шкафы-купе</a></li>
+							<li><a href="#">Распашные шкафы</a></li>
+							<li><a href="#">Комоды и тумбы</a></li>
+							<li><a href="#">Кровати</a></li>
+							<li><a href="#">Спальные гарнитуры</a></li>
+							<li><a href="#">Обеденные группы</a></li>
+							<li><a href="#">Прихожие</a></li>
+							<li><a href="#">Журнальные столы</a></li>
+							<li><a href="#">Тумбы под ТВ</a></li>
+							<li><a href="#">Мебель для детской</a></li>
+							<li><a href="#">Компьютерные столы</a></li>
+							<li><a href="#">Банкетки и пуфики</a></li>
+							<li><a href="#">Прихожие</a></li>
+							<li><a href="#">Обувницы</a></li>
+							<li><a href="#">Гостиные</a></li>
+
+						</ul>
+
+						<br />
+
+						<ul class="top-nav-list">
+								
+							<li><i class="top-nav-icon icon-1"></i><a href="#" class="top-nav-link">Наши салоны</a></li>
+							<li><i class="top-nav-icon icon-2"></i><a href="#" class="top-nav-link">Доставка и оплата</a></li>
+							<li><i class="top-nav-icon icon-3"></i><a href="#" class="top-nav-link">Акции</a></li>
+							<li><i class="top-nav-icon icon-4"></i><a href="#" class="top-nav-link">Контакты</a></li>
+
+						</ul>
+
+					</div>
+
 				</div>
 
 			</div>
-									
-		</header>
+
+		<!-- /Responsive Menu -->
 
 		<!-- /Header -->
 
 		<!-- Content -->
 			<div class="content">
 
-				<div class="twocols-templ">
+				<section class="promo-resp-sect">
+					
+					<div class="row">
+							
+							<div>
+
+								<div class="resp-logo-shape-box">							
+									
+									<img src="img/shape_4.png" alt="" class="resp-logo-shape">
+
+								</div>
+
+							</div>
+
+						<div>
+
+							<div class="resp-logo-box">
+								
+								<img src="img/logo_resp.png" alt="" class="resp-logo">
+
+							</div>
+
+						</div>
+
+						<div class="logo-desc resp-logo-desc">
+								
+							<div class="col col-1">
+								
+								<a class="tel-link" href="tel:74922446558">+7 4922 44-65-58</a>
+
+							</div>
+
+							<div class="col col-2 working-time">
+								
+								<p>пн-пт: с 9 до 18</p>
+
+								<p>сб-вс: с 9 до 15</p>
+								
+							</div>
+
+						</div>
+
+						<button type="button" class="scroll-down">
+							
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+
+						</button>
+
+					</div>
+
+				</section>
+
+				<!-- <div id="scroll_down_anchor"></div> -->
+
+				<div class="twocols-templ" id="scroll_down_anchor">
 
 					<div class="row  clearfix">
 						
@@ -340,7 +478,7 @@
 
 				<section class="main-slider-sect">
 					
-					<div class="row">
+					<!-- <div class="row"> -->
 						
 						<div class="main-slider-box">
 							
@@ -352,41 +490,9 @@
 										
 										<div class="img-box">
 
-											<div class="discount-box">
-												
-												<div class="discount-circle">
-													
-													<p>10%</p>
+											<img src="img/slide_img_full.png" alt="">
 
-												</div>
-
-												<div class="discount-txt-box">
-													
-													<div class="discount-txt">
-
-														<div class="discount-h">
-
-															<h3>Скидка</h3>
-															<h3 class="stroke">Скидка</h3>
-
-														</div>
-
-														<div class="discount-p">
-
-															<p>на фабрики «Е1» и «ЮТА»</p>
-															<p class="stroke-p">на фабрики «Е1» и «ЮТА»</p>
-
-														</div>
-
-													</div>
-
-												</div>
-
-												<div class="discount-shape"></div>
-
-											</div>
-
-											<img src="img/slide_img.png" alt="">
+											<img src="img/img_resp_slider.png" alt="" class="img_resp">
 
 										</div>
 
@@ -406,43 +512,9 @@
 										
 										<div class="img-box">
 
-											<div class="discount-box">
-												
-												<div class="discount-circle">
-													
-													<p>10%</p>
+											<img src="img/slide_img_full.png" alt="">
 
-												</div>
-
-												<div class="discount-txt-box">
-													
-													<div class="discount-txt">
-
-														<div class="discount-h">
-
-															<h3>Скидка 2</h3>
-															<h3 class="stroke">Скидка 2</h3>
-
-														</div>
-
-														<div class="discount-p">
-
-															<p>на фабрики «Е1» и «ЮТА»</p>
-															<p class="stroke-p">на фабрики «Е1» и «ЮТА»</p>
-
-														</div>
-
-													</div>
-
-													<img src="img/slider_txt.png" alt="">
-
-												</div>
-
-												<div class="discount-shape"></div>
-
-											</div>
-
-											<img src="img/slide_img.png" alt="">
+											<img src="img/img_resp_slider.png" alt="" class="img_resp">
 
 										</div>
 
@@ -455,7 +527,6 @@
 									</div>
 
 								</div>
-
 
 								<div class="main-slider-slide">
 
@@ -463,41 +534,9 @@
 										
 										<div class="img-box">
 
-											<div class="discount-box">
-												
-												<div class="discount-circle">
-													
-													<p>10%</p>
+											<img src="img/slide_img_full.png" alt="">
 
-												</div>
-
-												<div class="discount-txt-box">
-													
-													<div class="discount-txt">
-
-														<div class="discount-h">
-
-															<h3>Скидка 3</h3>
-															<h3 class="stroke">Скидка 3</h3>
-
-														</div>
-
-														<div class="discount-p">
-
-															<p>на фабрики «Е1» и «ЮТА»</p>
-															<p class="stroke-p">на фабрики «Е1» и «ЮТА»</p>
-
-														</div>
-
-													</div>
-
-												</div>
-
-												<div class="discount-shape"></div>
-
-											</div>
-
-											<img src="img/slide_img.png" alt="">
+											<img src="img/img_resp_slider.png" alt="" class="img_resp">
 
 										</div>
 
@@ -510,7 +549,6 @@
 									</div>
 
 								</div>
-
 
 							</div>
 
@@ -528,7 +566,7 @@
 
 						</div>
 
-					</div>
+					<!-- </div> -->
 
 				</section>
 
@@ -724,6 +762,8 @@
 
 								</div>
 
+								<button type="button" class="adress-map-btn">Открыть на карте</button>
+
 							</div>
 
 						</div>
@@ -731,6 +771,8 @@
 						<div class="col col-map">
 
 							<div class="map-box">
+
+								<button type="button" class="close-map">&#10005;</button>
 
 								<div id="map"></div>
 
@@ -764,7 +806,7 @@
 
 						<p>Оригинально и продуманно оформленные, они представляют собой произведения мебельного искусства, которые радуют своего обладателя на протяжении очень долгого времени. Долгий срок службы итальянской мебели – это следствие высокого качества материалов, использующихся при создании мебели, тщательного подбора фурнитуры и мастерской сборки. Каждая деталь в итальянской мебели совершенна!</p>
 
-						<a href="#" class="grey-btn">читать продолжение</a>
+						<a href="#" class="grey-btn center-sm">читать продолжение</a>
 
 					</div>
 
