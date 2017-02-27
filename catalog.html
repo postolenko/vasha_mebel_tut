@@ -22,11 +22,14 @@
 
 	<link rel="stylesheet" type="text/css" href="slick/slick.css">
 
+	<link rel="stylesheet" href="vendors/css/jquery.mCustomScrollbar.css">
+
 
 	<script type="text/javascript" src="vendors/js/jquery.js"></script>
 
 	<script type="text/javascript" src="slick/slick.js"></script>
 
+	<script src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 
 	<script type="text/javascript" src="vendors/js/wow.min.js"></script>
 	<script>new WOW().init();</script>
@@ -51,12 +54,32 @@
 			<div class="header">
 
 				<div class="row clearfix">
+
+					<div class="respmenubtn-col">
+
+						<div class="respmenubtn-box">
+									
+							<button class="respmenubtn">
+								
+								<span></span>
+								<span></span>
+								<span></span>
+
+							</button>
+
+							<p>Каталог</p>
+
+							<p class="show-p">Закрыть</p>
+
+						</div>
+
+					</div>
 					
 					<div class="col col-1">
 									
 						<div class="logo-box">
 							
-								<a href="#" class="logo"><img class="logo-img" src="img/logo.png" alt=""></a>							
+							<a href="#" class="logo"><img class="logo-img" src="img/logo.png" alt=""></a>				
 
 						</div>
 
@@ -121,11 +144,70 @@
 
 					</div>
 
+				</div>				
+
+			</div>
+
+		</header>
+
+		<!-- Responsive Menu -->
+
+			<div class="resp-menu-sect">
+				
+				<div class="resp-menu-top-row">
+
+					<div class="search">
+								
+						<input type="text" class="search-inpt" placeholder="Что вы ищете?">
+
+						<button type="button" class="search-btn"></button>
+
+					</div>
+
+				</div>
+
+				<div class="resp-menu-box scroll">
+
+					<div class="resp-menu-wrapp align-left">
+						
+						<ul class="sidebar-nav">
+
+							<li><a href="#">Шкафы-купе</a></li>
+							<li><a href="#">Распашные шкафы</a></li>
+							<li><a href="#">Комоды и тумбы</a></li>
+							<li><a href="#">Кровати</a></li>
+							<li><a href="#">Спальные гарнитуры</a></li>
+							<li><a href="#">Обеденные группы</a></li>
+							<li><a href="#">Прихожие</a></li>
+							<li><a href="#">Журнальные столы</a></li>
+							<li><a href="#">Тумбы под ТВ</a></li>
+							<li><a href="#">Мебель для детской</a></li>
+							<li><a href="#">Компьютерные столы</a></li>
+							<li><a href="#">Банкетки и пуфики</a></li>
+							<li><a href="#">Прихожие</a></li>
+							<li><a href="#">Обувницы</a></li>
+							<li><a href="#">Гостиные</a></li>
+
+						</ul>
+
+						<br />
+
+						<ul class="top-nav-list">
+								
+							<li><i class="top-nav-icon icon-1"></i><a href="#" class="top-nav-link">Наши салоны</a></li>
+							<li><i class="top-nav-icon icon-2"></i><a href="#" class="top-nav-link">Доставка и оплата</a></li>
+							<li><i class="top-nav-icon icon-3"></i><a href="#" class="top-nav-link">Акции</a></li>
+							<li><i class="top-nav-icon icon-4"></i><a href="#" class="top-nav-link">Контакты</a></li>
+
+						</ul>
+
+					</div>
+
 				</div>
 
 			</div>
-									
-		</header>
+
+		<!-- /Responsive Menu -->
 
 		<!-- /Header -->
 
@@ -134,7 +216,11 @@
 
 				<div class="twocols-templ">
 
-					<div class="shape"></div>
+					<div class="shape-box-bg">
+
+						<dir class="shape-box"></dir>
+
+					</div>
 
 					<div class="row clearfix">
 						
@@ -622,7 +708,7 @@
 
 									<p>Оригинально и продуманно оформленные, они представляют собой произведения мебельного искусства, которые радуют своего обладателя на протяжении очень долгого времени. Долгий срок службы итальянской мебели – это следствие высокого качества материалов, использующихся при создании мебели, тщательного подбора фурнитуры и мастерской сборки. Каждая деталь в итальянской мебели совершенна!</p>
 
-									<a href="#" class="grey-btn">читать продолжение</a>
+									<a href="#" class="grey-btn center-sm">Читать продолжение</a>
 
 								</div>
 
@@ -688,18 +774,28 @@
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoGWEyUlxHOSfMgm2TliQLggP3mej7d_I&callback=initMap"></script>
 
 		<script type="text/javascript">
-			
-		$(".main-slider").slick({
-			fade: true,
-			dots: true,
-			arrows: true,
-			slidesToShow: 1,
-			autoplay: true,
-			autoplaySpeed: 7000,
-			speed: 900,
-			appendDots: $(".main-slider-dots"),
-			appendArrows: $(".main-slider-arrows")
-		});
+
+			(function($){
+
+				$(window).on("load",function(){
+
+					$(".scroll").mCustomScrollbar();
+
+				});
+
+			})(jQuery);
+				
+			$(".main-slider").slick({
+				fade: true,
+				dots: true,
+				arrows: true,
+				slidesToShow: 1,
+				autoplay: true,
+				autoplaySpeed: 7000,
+				speed: 900,
+				appendDots: $(".main-slider-dots"),
+				appendArrows: $(".main-slider-arrows")
+			});
 
 		</script>
 	
