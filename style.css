@@ -949,7 +949,7 @@ a:active {
 
 .logo-desc .col {
    display: inline-block;
-   vertical-align: top;
+   vertical-align: top!important;
 }
 
 .logo-desc .col-1 {
