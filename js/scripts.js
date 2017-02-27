@@ -15,6 +15,8 @@ $(document).ready(function() {
     var popupImgWidth;
     var popupImgHeight;
 
+    $(".shape-box").css({"left" : $(".main-content").offset().left + 574 + "px"});
+
 
     $(window).resize(function() {
 
@@ -36,6 +38,8 @@ $(document).ready(function() {
         // ---------------------------------------------------------------------------------
 
         getSlideImgSize();
+
+        $(".shape-box").css({"left" : $(".main-content").offset().left + 574 + "px"});
 
     });
 
@@ -261,9 +265,7 @@ $(document).ready(function() {
 
             }, 300);
 
-        });
-
-        
+        });        
 
     });
 
