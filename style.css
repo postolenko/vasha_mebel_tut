@@ -1778,7 +1778,8 @@ a:active {
       width: 861px;
       height: 701px;
       position: absolute;
-      top: 37%;
+      /*top: 37%;*/
+      top: 375px;
       left: 578px;
       background-image: url(img/shape_bg.png);
       background-position: center;
