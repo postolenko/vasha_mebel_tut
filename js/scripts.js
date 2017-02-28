@@ -311,18 +311,6 @@ $(document).ready(function() {
                 });
 
             }
-            // else if ( popupImgWidth < $(window).width() * .9 || popupImgHeight < $(window).height() * .9 ) {
-
-            //     $(".popup-img").css({
-
-            //         "max-width" : "auto",
-            //         "max-height" : "auto",
-            //         "min-width": 70 + "%",
-            //         "min-height": 70 + "%"
-
-            //     });
-
-            // }
 
         }
 
