@@ -318,22 +318,15 @@
 	}
 
 	.gallery-thumbnail {
-/*		display: inline-block;
-		vertical-align: top;*/
 	    width: 33.33%;
 	    padding: 0 0 30px 0;
 	}
-
-	/*.gallery-thumbnail .col-1 {
-	    width: 80px;
-	}*/
 
 	.gallery-box-btns {
 		text-align: center;
 	}
 
 	.phiolet-btn {
-	    /*min-width: 96%;*/
 	    margin: 20px 0;
 	    padding: 8px 2%;
 	}
@@ -471,7 +464,6 @@
 @media only screen and (max-width: 480px) {
 
 	section {
-	    /*position: relative;*/
 	    padding: 35px 0 25px 0;
 	}
 
