@@ -3180,7 +3180,7 @@ section.catalog-sect {
    background: rgba(255, 136, 25, 1);
    font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
    font-size: 16px;
-   line-height: 30px;
+   line-height: 20px;
    font-weight: bold;
    color: #ffe6ce;
    -webkit-border-radius: 0 3px 3px 0;
@@ -3474,7 +3474,7 @@ section.catalog-sect {
   line-height: 30px;
 }
 
-.gallery-header.good-info .action:before {
+.slider-product-info .action:before {
     display: block;
     content: "";
     position: absolute;
@@ -3489,6 +3489,23 @@ section.catalog-sect {
     border-radius: 2px 3px 3px 2px;
     border-style: solid;
     border-width: 15px 11px 15px 0;
+}
+
+.gallery-header.good-info .action:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -7px;
+    width: 0;
+    height: 0;
+    -webkit-border-radius: 2px 3px 3px 2px;
+    -moz-border-radius: 2px 3px 3px 2px;
+    -ms-border-radius: 2px 3px 3px 2px;
+    -o-border-radius: 2px 3px 3px 2px;
+    border-radius: 2px 3px 3px 2px;
+    border-style: solid;
+    border-width: 10px 7px 10px 0;
 }
 
 .good-info .action span {
