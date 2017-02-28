@@ -4069,9 +4069,9 @@ font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   -o-border-radius: 0 20px 20px 0;
   border-radius: 0 20px 20px 0;
   height: 40px;
-font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
+   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
-  line-height: 40px;
+  line-height: 39px;
   font-weight: normal;
   color: #666666;
 }
