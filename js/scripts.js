@@ -39,7 +39,7 @@ $(document).ready(function() {
 
     // $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
 
-    $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
+    $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight() )  + "px"});
 
     // -------------------------------------------------------------
 
