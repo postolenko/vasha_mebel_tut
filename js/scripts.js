@@ -35,7 +35,9 @@ $(document).ready(function() {
 
     $(".shape-box").css({"left" : $(".main-content").offset().left + 574 + "px"});
 
-    $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
+    $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .9 ) - $(".gallery-header").height() - $(".gallery-box-btns").height() - $(".close-galery-resp-box").height() )  + "px"});
+
+    // -------------------------------------------------------------
 
     $(window).resize(function() {
 
