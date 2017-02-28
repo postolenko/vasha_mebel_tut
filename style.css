@@ -4012,13 +4012,14 @@ select option,
   vertical-align: middle;
   width: 30%;
   height: 40px;
+  padding-bottom: 2px;
   position: relative;
   cursor: pointer;
   border: none;
   overflow: hidden;
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
-  font-size: 39px;
-  line-height: 39px;
+   font-size: 30px;
+   line-height: 32px;
   font-weight: normal;
   color: #666666;
   background: rgba(243, 243, 243, 1);
@@ -4055,8 +4056,6 @@ select option,
   -ms-border-radius: 20px 0 0 20px;
   -o-border-radius: 20px 0 0 20px;
   border-radius: 20px 0 0 20px;
-  height: 40px;
-  /*outline: 1px solid green;*/
 }
 
 .count-goods-box .minus-btn {
@@ -4065,34 +4064,8 @@ select option,
   -ms-border-radius: 0 20px 20px 0;
   -o-border-radius: 0 20px 20px 0;
   border-radius: 0 20px 20px 0;
-  height: 40px;
-  /*outline: 1px solid green;*/
-}
-/*
-.count-goods-box .minus-btn:before {
-  display: inline-block;
-  vertical-align: middle;
-  content: "\207B";
-  height: 26px;
-  font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
-  font-size: 39px;
-  line-height: 39px;
-  font-weight: normal;
-  color: #666666;
 }
 
-.count-goods-box .plus-btn:before {
-  display: inline-block;
-  vertical-align: middle;
-  content: "\207A";
-  height: 26px;
-  font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
-  font-size: 39px;
-  line-height: 39px;
-  font-weight: normal;
-  color: #666666;
-}
-*/
 .count-goods-box .count-goods {
   display: inline-block;
   vertical-align: middle;
