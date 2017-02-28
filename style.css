@@ -4016,6 +4016,11 @@ select option,
   cursor: pointer;
   border: none;
   overflow: hidden;
+  font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
+  font-size: 39px;
+  line-height: 39px;
+  font-weight: normal;
+  color: #666666;
   background: rgba(243, 243, 243, 1);
 
   -webkit-transition-property: background color;
@@ -4063,7 +4068,7 @@ select option,
   height: 40px;
   /*outline: 1px solid green;*/
 }
-
+/*
 .count-goods-box .minus-btn:before {
   display: inline-block;
   vertical-align: middle;
@@ -4087,7 +4092,7 @@ select option,
   font-weight: normal;
   color: #666666;
 }
-
+*/
 .count-goods-box .count-goods {
   display: inline-block;
   vertical-align: middle;
