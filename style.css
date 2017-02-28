@@ -4089,7 +4089,7 @@ font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   color: #666666;
 }
 
-.count-goods-box .plus-btn:before {
+/*.count-goods-box .plus-btn:before {
   display: block;
   content: "\207A";
   height: 40px;
@@ -4100,7 +4100,7 @@ font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   line-height: 40px;
   font-weight: normal;
   color: #666666;
-}
+}*/
 
 .count-goods-box .count-goods {
   display: inline-block;
