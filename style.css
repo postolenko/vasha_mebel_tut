@@ -234,12 +234,16 @@ h2 {
    line-height: 52px;
    font-weight: normal;
    color: #333333;
-   /*text-align: center;*/
    padding: 20px 0;
 }
 
 h3 {
-
+    font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #3f3e40;
+    text-transform: uppercase;
 }
 
 p {
@@ -340,7 +344,7 @@ a:active {
 }
 
 .breadcrumbs-box {
-  padding: 20px 0 10px 3%;
+  padding: 20px 0 10px 1%;
 }
 
 .breadcrumbs-box + section {
@@ -3405,6 +3409,7 @@ section.catalog-sect {
     height: 110px;
     border: 1px solid transparent;
     overflow: hidden;
+    opacity: .5;
     -webkit-box-shadow: 0px 0px 140px 0px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0px 0px 140px 0px rgba(0, 0, 0, .1);
     box-shadow: 0px 0px 140px 0px rgba(0, 0, 0, .1);
@@ -3412,6 +3417,7 @@ section.catalog-sect {
 
 .photo_miniatures_slider .miniature-box.active {
     border: 1px solid #cabfe7;
+    opacity: 1;
 }
 
 .photo_miniatures_slider .miniature-box img {
@@ -4010,11 +4016,11 @@ select option,
   border: none;
   overflow: hidden;
   background: rgba(243, 243, 243, 1);
-  font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
+  /*font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
   line-height: 40px;
   font-weight: normal;
-  color: #666666;
+  color: #666666;*/
 
   -webkit-transition-property: background color;
   -webkit-transition-duration: .3s;
@@ -4063,6 +4069,11 @@ select option,
   content: "\207B";
   position: relative;
   top: 6px;
+  font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
+  font-size: 39px;
+  line-height: 40px;
+  font-weight: normal;
+  color: #666666;
 }
 
 .count-goods-box .plus-btn:before {
@@ -4070,6 +4081,11 @@ select option,
   content: "\207A";
   position: relative;
   top: 6px;
+  font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
+  font-size: 39px;
+  line-height: 40px;
+  font-weight: normal;
+  color: #666666;
 }
 
 .count-goods-box .count-goods {
@@ -4378,10 +4394,6 @@ p.comp {
   background: rgba(0, 0, 0, 1);
 }
 
-.popup-img-box {
-
-}
-
 .product-slide-popup img {
   display: block;
   width: auto;
@@ -4394,15 +4406,14 @@ p.comp {
   bottom: 0;
   z-index: 2;
   overflow: hidden;
-  /*max-width: 85%;*/
-  min-width: 65%;
-  min-height: 65%;
-/*  min-width: 600px;
-  min-height: auto;*/
+  max-width: 90%;
+  max-height: 90%;
   -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, .3);
   -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, .3);
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, .3);
 }
+
+
 
 
 /*-- /Popups --*/

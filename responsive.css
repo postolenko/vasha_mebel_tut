@@ -42,11 +42,9 @@
 		padding: 0 2%;
 	}
 
-	/*-- Header --*/
-
-
-
-	/*-- /Header --*/
+	.breadcrumbs-box {
+	    padding: 20px 0 10px 3%;
+	}
 
 	.sidebar {
 	    width: 24%;
@@ -64,7 +62,6 @@
 	    width: 96%;
 	    top: -30px;
 	    left: -3%;
-	    /*height: 542px;*/
 	}
 
 
