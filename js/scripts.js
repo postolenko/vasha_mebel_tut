@@ -15,11 +15,31 @@ $(document).ready(function() {
     var popupImgWidth;
     var popupImgHeight;
 
+    // -------------------------
+
+    // var miniaturesCount = $(".img-box").length - 1;
+
+    // var miniatureIndex;
+
+    // var miniatureWidth;
+    // var miniatureHeight;
+
+    // var miniatureWidthImg;
+    // var miniatureHeightImg;
+
+    // -------------------------
+
     $(".shape-box").css({"left" : $(".main-content").offset().left + 574 + "px"});
 
+    if( $(".gallery-box").height() > $(window).height() * .85 ) {
+
+        $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .95 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
+
+    }
+
+    // getMiniatureSize();
 
     $(window).resize(function() {
-
 
         $(".wrapper").css({"min-height" : $(window).height() + "px"});
 
@@ -39,7 +59,21 @@ $(document).ready(function() {
 
         getSlideImgSize();
 
+        // getMiniatureSize();
+
+        // ----------------------------------------------------------------------------------
+
         $(".shape-box").css({"left" : $(".main-content").offset().left + 574 + "px"});
+
+        // ----------------------------------------------------------------------------------
+
+        // $(".gallery-scroll-box").css({"max-height" : ( $(".gallery-box").height() - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
+
+        if( $(".gallery-box").height() > $(window).height() * .85 ) {
+
+            $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .95 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
+
+        }
 
     });
 
@@ -128,7 +162,7 @@ $(document).ready(function() {
 
     $(function() {
 
-        $(".gallery-bg, .close-gallery").click(function() {
+        $(".gallery-bg, .close-gallery, .close-gallery-btn").click(function() {
 
             $(".gallery-sect").fadeOut(300);
 
@@ -307,5 +341,66 @@ $(document).ready(function() {
         }
 
     }
+
+    // ---------------------------------------------------------------------------------------
+
+    // function getMiniatureSize() {
+
+    //     miniaturesCount = $(".img-box").length - 1;
+
+    //     // var miniatureIndex;
+
+    //     // var miniatureWidth;
+    //     // var miniatureHeight;
+
+    //     // var miniatureWidthImg;
+    //     // var miniatureHeightImg;
+
+    //     // console.log(miniaturesCount);
+
+    //     for( miniatureIndex = 0; miniatureIndex <= miniaturesCount; miniatureIndex++ ) {
+
+    //         miniatureWidth = $(".img-box:eq("+ miniatureIndex  +")").width();
+
+    //         miniatureHeight = $(".img-box:eq("+ miniatureIndex  +")").outerHeight(true);
+
+    //         miniatureWidthImg = $(".img-box:eq("+ miniatureIndex  +") img").width();
+
+    //         miniatureHeightImg = $(".img-box:eq("+ miniatureIndex  +") img").outerHeight(true);
+
+    //         if( miniatureHeightImg < miniatureHeight || miniatureWidthImg < miniatureWidth ) {
+
+    //             $(".img-box:eq("+ miniatureIndex  +") img").css({
+    //                 "min-width" : miniatureWidth + "px",
+    //                 "min-height" : miniatureHeight + "px"
+    //             });
+
+    //         } else if( miniatureHeightImg > miniatureHeight && miniatureWidthImg < miniatureWidth ) {
+
+    //             $(".img-box:eq("+ miniatureIndex  +") img").css({
+    //                 "width" : miniatureWidth + "px",
+    //                 "height" : "auto"
+    //             });
+
+    //         } else if( miniatureHeightImg < miniatureHeight && miniatureWidthImg > miniatureWidth ) {
+
+    //             $(".img-box:eq("+ miniatureIndex  +") img").css({
+    //                 "width" : "auto",
+    //                 "height" : miniatureHeight + "px"
+    //             });
+
+    //         } else if( miniatureHeightImg > miniatureHeight && miniatureWidthImg > miniatureWidth ) {
+
+    //             $(".img-box:eq("+ miniatureIndex  +") img").css({
+    //                 "width" : "auto",
+    //                 "height" : miniatureHeight + "px"
+    //             });
+
+    //         }
+
+    //     }
+
+
+    // }
 
 });
