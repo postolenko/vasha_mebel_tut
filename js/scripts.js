@@ -35,7 +35,11 @@ $(document).ready(function() {
 
     $(".shape-box").css({"left" : $(".main-content").offset().left + 574 + "px"});
 
-    $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .9 ) - $(".gallery-header").height() - $(".gallery-box-btns").height() - $(".close-galery-resp-box").height() )  + "px"});
+    // $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").height() - $(".gallery-box-btns").height() - $(".close-galery-resp-box").height() )  + "px"});
+
+    // $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
+
+    $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
 
     // -------------------------------------------------------------
 
@@ -59,7 +63,7 @@ $(document).ready(function() {
 
         getSlideImgSize();
 
-        getMiniatureSize();
+        // getMiniatureSize();
 
         // ----------------------------------------------------------------------------------
 
@@ -67,7 +71,13 @@ $(document).ready(function() {
 
         // ----------------------------------------------------------------------------------
 
-        $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
+        // $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight() - $(".gallery-box-btns").outerHeight() - $(".close-galery-resp-box").outerHeight() )  + "px"});
+
+        // $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").height() - $(".gallery-box-btns").height() - $(".close-galery-resp-box").height() )  + "px"});
+
+        // $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
+
+        $(".gallery-scroll-box").css({"height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
 
     });
 
