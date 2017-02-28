@@ -4080,8 +4080,8 @@ font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   display: block;
   content: "\207B";
   height: 40px;
-/*  position: relative;
-  top: 6px;*/
+  position: relative;
+  top: 6px;
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
   line-height: 40px;
@@ -4093,8 +4093,8 @@ font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   display: block;
   content: "\207A";
   height: 40px;
-/*  position: relative;
-  top: 6px;*/
+  position: relative;
+  top: 6px;
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
   line-height: 40px;
