@@ -763,6 +763,10 @@
 		margin: 30px auto 20px auto;
 	}
 
+	.good-info p.price {
+	    margin: 0 9px 0 0;
+	}
+
 	.gallery-slider {
 	    height: 188px;
 	}
