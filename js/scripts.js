@@ -31,13 +31,7 @@ $(document).ready(function() {
 
     $(".shape-box").css({"left" : $(".main-content").offset().left + 574 + "px"});
 
-    if( $(".gallery-box").height() > $(window).height() * .85 ) {
-
-        $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .95 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
-
-    }
-
-    // getMiniatureSize();
+    $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
 
     $(window).resize(function() {
 
@@ -67,13 +61,7 @@ $(document).ready(function() {
 
         // ----------------------------------------------------------------------------------
 
-        // $(".gallery-scroll-box").css({"max-height" : ( $(".gallery-box").height() - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
-
-        if( $(".gallery-box").height() > $(window).height() * .85 ) {
-
-            $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .95 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
-
-        }
+        $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
 
     });
 
@@ -108,12 +96,6 @@ $(document).ready(function() {
         });
 
     });
-
-    // $(function() {
-
-    //     $(".resp-menu-box").height(  $(window).height() - $(".resp-menu-top-row").outerHeight(true) - parseInt( $(".resp-menu-box").css("padding-top") ) - parseInt( $(".resp-menu-box").css("padding-bottom") ) - $(".header").outerHeight(true) - 20 );
-
-    // });
 
     // --------------------------------------------------------------------------------------
 

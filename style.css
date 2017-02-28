@@ -3213,6 +3213,11 @@ section.catalog-sect {
    border-color: transparent #ff8819 transparent transparent;
 }
 
+/*.gallery-scroll-box {
+   overflow-y: scroll;
+   overflow-x: none;
+}*/
+
 .gallery-box .slider-col {
   display: block;
   width: 75%;
