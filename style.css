@@ -4068,7 +4068,7 @@ select option,
   display: inline-block;
   vertical-align: middle;
   content: "\207B";
-  height: 20px;
+  height: 25px;
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
   line-height: 40px;
@@ -4080,7 +4080,7 @@ select option,
   display: inline-block;
   vertical-align: middle;
   content: "\207A";
-  height: 20px;
+  height: 25px;
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
   line-height: 40px;
