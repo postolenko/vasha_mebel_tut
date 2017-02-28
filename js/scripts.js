@@ -29,6 +29,10 @@ $(document).ready(function() {
 
     // -------------------------
 
+    // getMiniatureSize();
+
+    // -------------------------
+
     $(".shape-box").css({"left" : $(".main-content").offset().left + 574 + "px"});
 
     $(".gallery-scroll-box").css({"max-height" : ( ( $(window).height() * .9 ) - $(".gallery-header").outerHeight(true) - $(".gallery-box-btns").outerHeight(true) - $(".close-galery-resp-box").outerHeight(true) )  + "px"});
@@ -53,7 +57,7 @@ $(document).ready(function() {
 
         getSlideImgSize();
 
-        // getMiniatureSize();
+        getMiniatureSize();
 
         // ----------------------------------------------------------------------------------
 
