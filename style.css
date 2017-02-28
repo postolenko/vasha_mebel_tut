@@ -4078,14 +4078,16 @@ font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
 }
 
 .count-goods-box .minus-btn:before {
-  display: block;
+  /*display: block;*/
+  display: inline-block;
+  vertical-align: middle;
   content: "\207B";
-  height: 25px;
-  width: 16px;
-  position: absolute;
+  /*height: 25px;*/
+  /*width: 16px;*/
+/*  position: absolute;
   top: 50%;
   left: 50%;
-  margin: -14px 0 0 -8px;
+  margin: -14px 0 0 -8px;*/
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
   line-height: 40px;
@@ -4094,14 +4096,16 @@ font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
 }
 
 .count-goods-box .plus-btn:before {
-  display: block;
+  /*display: block;*/
+  display: inline-block;
+  vertical-align: middle;
   content: "\207A";
-  height: 25px;
-  width: 16px;
-  position: absolute;
+  /*height: 25px;*/
+  /*width: 16px;*/
+/*  position: absolute;
   top: 50%;
   left: 50%;
-  margin: -14px 0 0 -8px;
+  margin: -14px 0 0 -8px;*/
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
   line-height: 40px;
