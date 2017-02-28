@@ -4051,7 +4051,7 @@ select option,
   -o-border-radius: 20px 0 0 20px;
   border-radius: 20px 0 0 20px;
   height: 40px;
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
 }
 
 .count-goods-box .minus-btn {
@@ -4061,17 +4061,17 @@ select option,
   -o-border-radius: 0 20px 20px 0;
   border-radius: 0 20px 20px 0;
   height: 40px;
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
 }
 
 .count-goods-box .minus-btn:before {
   display: inline-block;
   vertical-align: middle;
   content: "\207B";
-  height: 25px;
+  height: 26px;
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
-  line-height: 40px;
+  line-height: 39px;
   font-weight: normal;
   color: #666666;
 }
@@ -4080,10 +4080,10 @@ select option,
   display: inline-block;
   vertical-align: middle;
   content: "\207A";
-  height: 25px;
+  height: 26px;
   font-family: "PT Sans Narrow", Verdana, Arial, sans-serif;
   font-size: 39px;
-  line-height: 40px;
+  line-height: 39px;
   font-weight: normal;
   color: #666666;
 }
